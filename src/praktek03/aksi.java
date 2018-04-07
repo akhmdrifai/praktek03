@@ -21,6 +21,19 @@ public class aksi {
             System.out.print("jumlah \t: ");
             System.out.println(t.getJumlah());
             
+            
+            kulkaspendingin bt = new kulkaspendingin();
+            bt.setMerek("Toshiba");
+            bt.setHarga(4000000);
+            bt.setJumlah(3);
+            bt.setkulkaspendingin("Pintu");
+            bt.cetakInfo();
+            System.out.println("Pintu \t:"+bt.kulkaspendingin());
+            bt.pendingin();
+                    
+            
+            
+            
     }
     
     
