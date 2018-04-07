@@ -1,8 +1,8 @@
 package praktek03;
 public class kulkas {
-     String merek;
-     double harga;
-     double jumlah;
+     private String merek;
+     private double harga;
+     private double jumlah;
     
      
      void cetakInfo(){
