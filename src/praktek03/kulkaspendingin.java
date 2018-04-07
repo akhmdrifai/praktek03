@@ -5,6 +5,15 @@ public class kulkaspendingin extends kulkas{
     
     void pendingin(){
         System.out.println("string pintu......;");
+        
+       
+    }
+    public String getPintu() {
+        return Pintu;
+        
+    }
+    public void setPintu(String Pintu) {
+        this.Pintu = Pintu;
     }
     
 }
